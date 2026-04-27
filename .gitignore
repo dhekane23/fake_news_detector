@@ -1,0 +1,27 @@
+# Dataset (too large for GitHub)
+data/
+
+# Trained model files
+models/*.pkl
+
+# Keep confusion matrix PNGs
+!models/*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
